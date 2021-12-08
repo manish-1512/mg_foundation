@@ -1,0 +1,419 @@
+<!-- all set  -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    
+   <!-- nav bar start here (checked) -->
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5  fw-bold " href="index.html">MG Foundation</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse me-3 mt-1" id="navbarTogglerDemo02">
+            <ul class="navbar-nav fw-bold  ms-auto ">
+              <li class="nav-item ">
+                <a class="nav-link "   href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="work.html">WORK</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="project.html" >PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="Contact.html" >CONTACT</a>
+              </li>
+              <li class="nav-item  donate">
+                <button class="buttn nav-link btn text-dark  m-1 ps-4 pe-4 " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" href="#" >Donate Now</button>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+<!-- nav bar end here -->
+<!-- Modelbox -->
+
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content model-box">
+     
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="form-label">Name <span style="color: red;">*</span></label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="form-label">Donate For</label>
+
+            <select name="donate_for" class="form-select" aria-label="select" id="">
+              <option value="">Education</option>
+              <option value="">Healh</option>
+              <option value="">Food</option>
+              <option value="">Poverty</option>
+            </select>
+            
+          </div>
+          <div class="mb-3">
+            <label for="donation" class="form-label">Donation (in INR) <span style="color: red;">*</span></label>
+            <input type="number" class="form-control" id="amount">
+          </div>
+          <button type="button" class="btn btn-outline-success ">Submit</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!-- model box end -->
+
+
+<!-- slider start -->
+<div id="carouselExampleDark" class="carousel carousel-dark" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark"  data-bs-slide-to="0" class=" active visually-hidden" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" class="visually-hidden"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" class="visually-hidden"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3000">
+      <img src="assets/1.jpg" class="d-block w-100" alt="...">  
+      <div class="carousel-caption d-none d-md-block">
+
+        <p class="text-center text-white fs-3 we-need-text">We need women at all levels, including the top, to change the dynamic, reshape,
+          the conversation, to make sure women's voices are heard and heeded, not overlooked and ignored..</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="assets/2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block mb-5">
+        
+        <p class="text-end fs-2 text-white ">It's not how much we give but how <br> much love we put into giving.</p>
+        <p class="text-end fs-2 text-white">(Mother Teresa)
+          </p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- slider end -->
+
+
+
+
+<!-- card slider is here -->
+<div class="container-fluid slide"> 
+  <div id="carouselExampleInterval" class="carousel slide carousel-fade " data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <div class="card-g">
+          <div class="card-group ">
+            <div class="card  s-card" >
+    
+              <div class="card-body ">
+                <h5 class="card-title fs-2 text-center card-title-font">EDUCATION</h5>
+                 <div class="card-border mt-4"></div>
+                <p class="card-text m-3 p-1 mt-lg-5 mb-lg-4 ">We dream of an educated and trained society, and in association with PMKVY, ESDM, etc are running various programs for the same.</p>
+                </div>
+              <div class="card-footer bg-transparent my-4 border-0 text-center">
+            
+                 <a class="btn  btn-lg px-lg-4 py-lg-3
+                  card-btn" href= "#" >Donate Now</a>
+                
+              </div>
+            </div> 
+            <div class="card  s-card card-bg" >
+    
+              <div class="card-body ">
+                <h5 class="card-title fs-2 text-center card-title-font"> HEALTH</h5>
+                 <div class="card-border mt-4"></div>
+                <p class="card-text m-3 p-1 mt-lg-5 mb-lg-4 ">We aim to address the gap in the availability of low-cost primary health care, thus enabling dignified, active, and healthier lives..</p>
+                </div>
+              <div class="card-footer bg-transparent my-4 border-0 text-center">
+            
+                 <a class="btn  btn-lg px-lg-4 py-lg-3  card-btn" href= "#" >Donate Now</a>
+                
+              </div>
+            </div> <div class="card  s-card" >
+    
+              <div class="card-body ">
+                <h5 class="card-title fs-2 text-center card-title-font"> FOOD </h5>
+                 <div class="card-border mt-4"></div>
+                <p class="card-text m-3 p-1 mt-lg-5 mb-lg-4 ">We want to live up to a day when there would be no person sleeping without even a single daily meal..</p>
+                </div>
+              <div class="card-footer bg-transparent my-4 border-0 text-center">
+            
+                 <a class="btn  btn-lg px-lg-4 py-lg-3  card-btn" href= "#" >Donate Now</a>
+                
+              </div>
+            </div> 
+            
+          </div>
+
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="card-g">
+          <div class="card-group ">
+            <div class="card  s-card" >
+    
+              <div class="card-body ">
+                <h5 class="card-title fs-2 text-center card-title-font">POVERTY</h5>
+                 <div class="card-border mt-4"></div>
+                <p class="card-text m-3 p-1 mt-lg-5 mb-lg-4 ">We dream of an educated and trained society, and in association with PMKVY, ESDM, etc are running various programs for the same.</p>
+                </div>
+              <div class="card-footer bg-transparent my-4 border-0 text-center">
+            
+                 <a class="btn  btn-lg px-lg-4 py-lg-3
+                  card-btn" href= "#" >Donate Now</a>
+                
+              </div>
+            </div> 
+            <div class="card  s-card card-bg" >
+    
+              <div class="card-body ">
+                <h5 class="card-title fs-2 text-center card-title-font"> SANITATION</h5>
+                 <div class="card-border mt-4"></div>
+                <p class="card-text m-3 p-1 mt-lg-5 mb-lg-4 ">We aim to address the gap in the availability of low-cost primary health care, thus enabling dignified, active, and healthier lives..</p>
+                </div>
+              <div class="card-footer bg-transparent my-4 border-0 text-center">
+            
+                 <a class="btn  btn-lg px-lg-4 py-lg-3  card-btn" href= "#" >Donate Now</a>
+                
+              </div>
+            </div> <div class="card  s-card" >
+    
+              <div class="card-body ">
+                <h5 class="card-title fs-2 text-center card-title-font"> FOOD </h5>
+                 <div class="card-border mt-4"></div>
+                <p class="card-text m-3 p-1 mt-lg-5 mb-lg-4 ">We want to live up to a day when there would be no person sleeping without even a single daily meal..</p>
+                </div>
+              <div class="card-footer bg-transparent my-4 border-0 text-center">
+            
+                 <a class="btn  btn-lg px-lg-4 py-lg-3  card-btn" href= "#" >Donate Now</a>
+                
+              </div>
+            </div> 
+            
+          </div>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card-g">
+          <div class="card-group ">
+            <div class="card  s-card" >
+    
+              <div class="card-body ">
+                <h5 class="card-title fs-2 text-center card-title-font">EDUCATION</h5>
+                 <div class="card-border mt-4"></div>
+                <p class="card-text m-3 p-1 mt-lg-5 mb-lg-4 ">We dream of an educated and trained society, and in association with PMKVY, ESDM, etc are running various programs for the same.</p>
+                </div>
+              <div class="card-footer bg-transparent my-4 border-0 text-center">
+            
+                 <a class="btn  btn-lg px-lg-4 py-lg-3
+                  card-btn" href= "#" >Donate Now</a>
+                
+              </div>
+            </div> 
+            <div class="card  s-card card-bg" >
+    
+              <div class="card-body ">
+                <h5 class="card-title fs-2 text-center card-title-font"> HEALTH</h5>
+                 <div class="card-border mt-4"></div>
+                <p class="card-text m-3 p-1 mt-lg-5 mb-lg-4 ">We aim to address the gap in the availability of low-cost primary health care, thus enabling dignified, active, and healthier lives..</p>
+                </div>
+              <div class="card-footer bg-transparent my-4 border-0 text-center">
+            
+                 <a class="btn  btn-lg px-lg-4 py-lg-3  card-btn" href= "#" >Donate Now</a>
+                
+              </div>
+            </div> <div class="card  s-card" >
+    
+              <div class="card-body ">
+                <h5 class="card-title fs-2 text-center card-title-font"> FOOD </h5>
+                 <div class="card-border mt-4"></div>
+                <p class="card-text m-3 p-1 mt-lg-5 mb-lg-4 ">We want to live up to a day when there would be no person sleeping without even a single daily meal..</p>
+                </div>
+              <div class="card-footer bg-transparent my-4 border-0 text-center">
+            
+                 <a class="btn  btn-lg px-lg-4 py-lg-3  card-btn" href= "#" >Donate Now</a>
+                
+              </div>
+            </div> 
+            
+          </div>
+
+        </div>
+          
+       </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div>
+<!-- card slider is here -->
+  
+<!-- become a volunteer -->
+<div class="container-fluid mt-5 mb-5">
+
+  <div class="row">
+    <div class="offset-2 col-8 px-lg-5 ">
+      <p class="text-center fs-1 bav">Become a Volunteer</p>
+      <p class="text-center  bav-sub">Your time and skills are valuable to us.</p>
+      <p class="bav-p">MG Foundation believes that unless members of the civil society are involved proactively in the process of development, sustainable change will not happen. We encourage and invite volunteers to be an active part of our organization and share the same vision and purpose as we do – to work for the welfare of all. MG Foundation offers a diverse range of volunteering opportunities. Through these,
+         you can not only contribute towards the betterment of society but also undergo a transformational journey for yourselves</p>
+
+     </div>
+  </div>
+    <div class="row text-center fs-5 fs-lg-4 fw-normal">
+      <p>MG Foundation’s story is incomplete without MG volunteer </p>
+    </div>
+    <div class="row">
+      <div class="text-center">
+
+        <a href="#" class="btn btn-outline-warning btn-lg px-5">Apply</a>
+      </div>
+    </div>
+
+</div>
+
+
+
+<!-- end here -->
+
+<!-- Footer  (checked) -->
+<footer class="text-center text-lg-start text-muted foot">
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4">
+      
+      </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="footer">
+      <div class="container text-cente text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-lg-5 col-xl-5 mx-auto mb-4">
+
+              <div class="row">
+
+                  <div class="col-6">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                     Contact Us
+                    </h6>
+                    <address>
+                        C-93, Jagraj Marg, Bapu Nagar,<br> Jaipur (Raj.) India Pin Code <br> - 302015
+                    </address>
+                  </div>
+
+                  <div class="col-6">
+                     <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                          Email
+                        </h6>
+                        <p>
+                            Email:   info@mgfoundation.in <br>
+                            Tel:     9001043331
+                        </p>
+                  </div>
+              </div>
+            <!-- Content -->
+           
+            
+          </div>
+
+         <!-- Grid column -->
+  
+                  
+          <!-- Grid column -->
+          <div class="col-lg-2 col-xl-2 col-6 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4  ">
+              Site Map 
+            </h6>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">About</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Work</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Projct</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Contact</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none fs-6">Donate Now</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class=" col-lg-2 col-xl-2  col-6 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Social Media
+            </h6>
+           
+          </div>
+          
+          <!-- Grid column -->
+          <div class=" col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              About
+            </h6>
+            <p>
+                MG Foundation is a Non Governmental charitable Organisation (NGO) who work in many fields in India for the growth and development for the ever one.
+            </p>
+          </div>
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+  </footer>
+  <!-- Footer -->
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+  
+  </body>
+</html>

@@ -1,0 +1,381 @@
+#div2 {
+    display: none;
+  }
+.cc{
+      cursor: pointer;
+     }   
+.navbar{
+        background-color: #beda3e;
+}
+
+
+.navbar-brand{
+    font-size: 21px;
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-item{
+        margin-right: 15px;
+        font-size: 17px; 
+      
+        }
+
+.nav-link:hover{
+    color: white;
+}  
+.con-info{
+    font-size: 42px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+.cv{
+    font-size: 32px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}  
+.cvs{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}   
+.wc,.wcc{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.i-link{
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.wc,.wcc,.ic,.i-link{
+    color: #beda3e;
+}
+.buttn{
+    background-color: yellow;
+    font-size: 17px;
+    font-weight: 500;
+}
+.model-box{
+    background-color: #beda3e;
+}
+
+.buttn:hover{
+    background-color: #beda3e;
+    border: 1px solid yellow;
+}
+.sec{
+    background-color: #beda3e;
+    color: white;
+}
+.fst{
+    background-color: white;
+}
+.message{
+    position: relative;
+    bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.hand-image{
+    
+    height: 480px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: yellow;
+    background-image: url("../assets/hands2.jpg");
+}
+.img-text{
+    position: absolute;
+    top: 26%;
+    left: 60%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.project-img{
+    height: 500px;
+    position: relative;
+    background-color: wheat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../assets/projct.jpg');
+}
+.paag{
+    font-size: 100px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+.work{
+    height: 700px;
+    width: 100%;
+    
+}
+
+.we-need-text{
+    margin-bottom: 80px;
+}
+.img-text .help-title{
+    font-size: 40px;
+    line-height: 45px;
+    color:black;
+    font-weight: 500;
+}
+.work-img{
+    outline: 4px solid yellow;
+}
+.yellow-box{
+    background-color: rgb(248, 248, 16);     
+}
+
+.free-ter{
+    background-color: #fff568   ;
+}
+.help-text{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23px;
+}
+.hr-line{
+    background-color: chartreuse;
+    height: 3px;
+  
+   
+    margin-bottom: 20px;
+
+}
+.mg-text{
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: 19px;
+}
+.who-we{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    
+}
+.mission{
+    padding-top:100px;
+
+}
+.vision{
+    padding-top:100px;
+}
+.object{
+    padding-top:100px;
+    padding-bottom: 150px;
+}
+.m-list{
+    font-size: 19px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.mission-img{
+    height: 300px;
+    width:300px;
+    
+    border: #beda3e 4px solid;
+    border-radius: 410px;
+    background-image: url('../assets/download.jpg');
+}
+.mg-had{
+    font-size: 46px;
+    font-family:serif;
+    font-weight: 600;
+}
+.hr-ln{
+    height: 1px;
+        background-color:  #beda3e;
+}
+.donate     a{
+    color: black;
+    font-size: 18px;;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #fff568;
+} 
+.donate a:hover{
+    background-color:#beda3e;
+    color: black;
+    border: 1px solid #fff568 ;
+}
+.footer p,address{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: serif;
+    color: whitesmoke;
+}
+.footer h6{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+.s-card{
+    background-color: #beda3e;
+}
+.s-card p,h5{
+    color: black;
+}
+.s-card p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.wwd{
+    font-size: 32px;
+}
+.card-btn{
+    background-color: rgb(239, 242, 237);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-btn:hover{
+    background-color:#beda3e;
+    border: 1px solid white;
+}
+.card-border{
+    border-bottom: 2px solid rgb(75, 71, 71);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.card-title-font{
+    font-family:'Times New Roman', Times, serif;
+}
+.card-g{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.card-bg{
+    background-color: #fff568;
+}
+.bav{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.bav-sub{
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: 18px;
+}
+.bav-p{
+    font-size: 17px;
+    font-weight: 400;
+
+}
+.foot{
+    background-color: #343a40;
+}
+.slide{
+    position: relative;
+    bottom:30px;
+
+}
+
+@media (max-width:767px) {
+
+    .bav-sub{  font-size: 16px; }
+    .bav-p{ font-size: 15px;  }
+
+    .img-text{
+        position: absolute;
+        top: 16%;
+        left: 20%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@media only screen  
+and (min-device-width:700px) and (max-device-width : 992px)  {
+
+   
+    .m-list{
+        font-size: 18px;
+       
+    }
+  
+    .img-text{
+        position: absolute;
+        top: 16%;
+        left: 20%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .i-link{
+
+        font-size: 16px; 
+    }
+    .card-g{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .message{        
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+}
+@media only screen  
+and  (max-device-width : 700px)  {
+
+    .message{        
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .m-list{
+        font-size: 18px;
+       
+    }
+   
+    .paag{
+        font-size: 50px;
+        color: whitesmoke;
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 40%;
+        left: 8%;
+    }
+    .card-g{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+
+
+}
+
+@media only screen  
+and  (max-device-width : 900px)  {
+
+    
+  .con-info{
+      font-size: 35px;
+      font-weight: 600;
+      font-family:'Times New Roman', Times, serif;
+  }
+  .cv{
+      font-size: 28px;
+      font-weight: 600;
+      font-family:'Times New Roman', Times, serif;
+  }  
+  .cvs{
+      font-size: 18px;
+      font-family: 'Times New Roman', Times, serif;
+      
+  }   
+  .wc{
+      font-size: 28px;
+  }
+  .wcc{
+      font-size: 22px
+  }
+  .i-link{
+      text-decoration: none;
+      font-size: 16px;
+  
+  }
+}
